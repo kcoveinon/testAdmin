@@ -1,0 +1,54 @@
+/*--[[GENERATE:BEGIN]]--*/
+	/*--[[GROUP:Filters:BEGIN]]--*/
+		/*--[[Slider Label Color]]--*/$bgd_col_FilterSliderLabel:#5BBD72;
+		/*--[[Buttons Inactive]]--*/$bgd_col_FilterButtonsInactive:#FFFFFF;
+		/*--[[Buttons Active]]--*/$bgd_col_FilterButtonsActive:#5BBD72;
+	/*--[[GROUP:END]]--*/
+	/*--[[GROUP:Results:BEGIN]]--*/
+		/*--[[Background Color]]--*/$bgd_col_resultsBackgroundColor:#FFFFFF;
+		/*--[[Title Font]]--*/$fnt_fmy_resultsTitleFont:Arial, Helvetica, sans-serif;
+		/*--[[Title Font Color]]--*/$txt_col_resultsTitleFont:#0D4B77;
+		/*--[[Title Font Size]]--*/$fnt_sze_resultsTitleFont:16px;
+		/*--[[Price Font]]--*/$fnt_fmy_resultsPriceFont:Arial, Helvetica, sans-serif;
+		/*--[[Price Font Color]]--*/$txt_col_resultsPriceFont:#0D4B77;
+		/*--[[Price Font Size]]--*/$fnt_sze_resultsPriceFont:21px;
+		/*--[[Book Button Color]]--*/$bgd_col_resultsBookButton:#27AE60;
+	/*--[[GROUP:END]]--*/
+/*--[[GENERATE:END]]--*/
+
+.filter-and-vehicles{
+
+	.irs-from, .irs-to, .irs-single{
+		background-color:$bgd_col_FilterSliderLabel!important;
+	}
+	.ui.mini.buttons .button, .ui.mini.button{
+		background-color:$bgd_col_FilterButtonsInactive!important;
+	}
+	.ui.mini.buttons .button.active, .ui.mini.button.active{
+		background-color:$bgd_col_FilterButtonsActive!important;
+	}
+	
+
+}
+
+.equal.height.three.column.row{
+	background-color:$bgd_col_resultsBackgroundColor!important;
+	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .name{
+	color:$txt_col_resultsTitleFont!important;
+	font-size:$fnt_sze_resultsTitleFont;
+	font-family:$fnt_fmy_resultsTitleFont;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .price.detail.column .ui.price.header{
+	color:$txt_col_resultsPriceFont;
+	font-size:$fnt_sze_resultsPriceFont;
+	font-family:$fnt_fmy_resultsPriceFont;
+}
+
+
+.results.grid .ui.button.primary{
+	background-color:$bgd_col_resultsBookButton;
+}

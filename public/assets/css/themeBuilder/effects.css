@@ -1,0 +1,107 @@
+body
+{
+	color:#555555;
+	padding:0;
+	margin:0;
+}
+
+
+/*==================================================
+ * Effects
+ * ===============================================*/
+ 
+ /* div Effects*/
+ 
+.box-effect1
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.box-effect1:before, .box-effect1:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.box-effect1:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+ /* text Effects*/
+.text-effect1
+{
+	
+}
+
+ /* input Effects*/
+.input-effect1
+{
+	height:30px;
+	width:70%;
+	border-width:1px;
+	border-style:solid;
+	border-radius:4px;
+	border-color:#CCCCCC;
+}
+
+.ddlist-effect1
+{
+	height:30px;
+	border-width:1px;
+	border-style:solid;
+	border-radius:4px;
+	border-color:#CCCCCC;
+	color:#555555
+}
+
+.button-effect1
+{
+	font-size:25px;
+	color:#777777;
+	text-shadow: 0px 2px 4px #DDDDDD;
+	background:none;
+}
+
+.button-effect1:hover
+{
+	color:#FFFFFF;
+	text-shadow: 0px 0px 15px #000000;
+	background:none;
+}
+
+.othereffects1[type=text], .othereffects1, select{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+.othereffects1[type=text]:focus, .othereffects1:focus, select:focus{
+  box-shadow: 0 0 2px rgba(31, 150, 220, 1);
+  padding: 3px 0px 3px 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(31, 150, 220, 1);
+}

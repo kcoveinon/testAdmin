@@ -1,0 +1,22 @@
+body div:not(html-builder){
+	pointer-events: none; 
+	cursor: default; 
+}
+
+html-builder-highlight{
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	z-index: 1000;
+	display:block;
+	background-color: rgba(27,161,226,0.7);
+}
+
+html-builder *{
+	pointer-events: none; 
+}
+
+html-builder{
+	cursor: pointer;
+	display:block;
+}

@@ -1,0 +1,75 @@
+.grid-directive tfoot .item {
+	font-style: normal;
+}
+
+.grid-directive .icon.filter {
+	float: right;
+	cursor: pointer;
+	color: rgba(0,0,0, .5);
+}
+
+.grid-directive .ui.popup.nomaxwidth
+{
+	max-width: none !important;
+}
+
+.grid-directive .icon.filter.dirty {
+	color: #FF0000;
+}
+
+.grid-directive .icon.filter:hover {
+	opacity: .4;
+}
+
+/*.grid-directive table thead tr,
+.grid-directive table tbody,
+.grid-directive table > tbody > tr {
+	display: block; 
+}*/
+
+.grid-directive .div-table-body {
+	width: 100%;
+	overflow-x: hidden;
+	height: 200px; 
+	overflow-y: scroll;
+}
+
+.grid-directive .div-table-footer {
+	width: 100.2%;
+}
+
+.grid-directive .div-table-header {
+	border-top:1px solid rgba(0, 0, 0, 0.1);
+	border-bottom:1px solid rgba(0, 0, 0, 0.1);	
+}
+
+.grid-directive .div-table-header table,
+.grid-directive .div-table-filter-header table {
+	/*width: 98.62%;*/	
+	width: 100%;	
+}
+
+.grid-directive th.nosort {
+	cursor: default !important;
+	background-color: transparent !important;
+}
+
+.grid-directive th.nosort:hover {
+	cursor: default !important;
+	background-color: transparent !important;
+}
+
+.grid-directive .div-table-header,
+.grid-directive .div-table-filter-header {	
+	background-color:rgba(0, 0, 0, 0.05);	
+	/*width: 100.2%;*/
+	padding-right: 17px;
+}
+
+.grid-directive .div-table-header table th,
+.grid-directive .div-table-filter-header table th {
+	background-color: transparent;
+} 
+.grid-directive .ui.table thead th:last-child {
+	border-radius: 0px;
+}

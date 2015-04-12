@@ -1,0 +1,74 @@
+
+/*==================================================
+ * Effects
+ * ===============================================*/
+ 
+ /* div Effects*/
+ 
+#searchPage720x520  .sp720x520-box-effect1
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+ /* text Effects*/
+#searchPage720x520  .sp720x520-text-effect1
+{
+	
+}
+
+ /* input Effects*/
+#searchPage720x520  .sp720x520-input-effect1
+{
+	height:30px;
+	width:70%;
+	border-width:1px;
+	border-style:solid;
+	border-radius:4px;
+	border-color:#CCCCCC;
+}
+
+#searchPage720x520  .sp720x520-ddlist-effect1
+{
+	height:30px;
+	border-width:1px;
+	border-style:solid;
+	border-radius:4px;
+	border-color:#CCCCCC;
+	color:#555555
+}
+
+#searchPage720x520  .sp720x520-button-effect1
+{
+	font-size:25px;
+	color:#777777;
+	text-shadow: 0px 2px 4px #DDDDDD;
+	background:none;
+}
+
+#searchPage720x520  .sp720x520-button-effect1:hover
+{
+	color:#FFFFFF;
+	text-shadow: 0px 0px 15px #000000;
+	background:none;
+}
+
+#searchPage720x520  .sp720x520-othereffects1[type=text], #searchPage720x520  .sp720x520-othereffects1, #searchPage720x520  select{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+#searchPage720x520  .sp720x520-othereffects1[type=text]:focus, #searchPage720x520  .sp720x520-othereffects1:focus, #searchPage720x520  select:focus{
+  box-shadow: 0 0 2px rgba(31, 150, 220, 1);
+  padding: 3px 0px 3px 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(31, 150, 220, 1);
+}

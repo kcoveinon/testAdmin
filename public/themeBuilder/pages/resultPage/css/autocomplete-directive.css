@@ -1,0 +1,40 @@
+.autocomplete.directive {
+	background-color: #FFFFFF;
+	font-size: 1.5em; 
+	border-radius: 0;
+	margin-top: .5%;
+	max-width: 100%;
+	position:absolute;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	-o-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	z-index: 1000;
+}
+
+.autocomplete.directive tr {
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.03) !important;
+}
+
+.autocomplete.directive tr.active td {
+	background-color: #0D4B77 !important;
+	color: #FFFFFF;
+}
+
+.autocomplete.directive td {
+	padding: 0.4em 0.34em !important;
+}
+
+.autocomplete .float-right {
+	float: right;
+}
+
+.autocomplete .icon {
+	font-size: 1.23em;
+	color: #6ECFF5 !important;
+}
+
+.autocomplete .float-left {
+	float: left;
+}

@@ -1,0 +1,27 @@
+#upload-area{
+
+	display:block;
+	width:100%;
+	min-height:500px;
+	/*background-color:#ccc;*/
+}
+
+#upload-area .upload-error{
+
+	color:red;
+
+}
+
+#upload-area .upload-progress-bar{
+
+	width:20%;
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.month-to-process{
+
+	display:inline-block;
+	width:250px;
+
+}

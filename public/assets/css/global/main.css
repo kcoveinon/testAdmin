@@ -1,0 +1,69 @@
+/*******************************
+        Highlighted Colors
+*******************************/
+
+::-webkit-selection {
+  background-color: #FFFFCC;
+  color: #555555;
+}
+::-moz-selection {
+  background-color: #FFFFCC;
+  color: #555555;
+}
+::selection {
+  background-color: #FFFFCC;
+  color: #555555;
+}
+
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection {
+  background-color: #F1C1C2;
+  color: #222222;
+}
+h1::selection,
+h2::selection,
+h3::selection {
+  background-color: #F1C1C2;
+  color: #222222;
+}
+.ui *::-moz-selection {
+  background-color: #CCE2FF;
+}
+.ui *::selection {
+  background-color: #CCE2FF;
+}
+
+/*******************************
+             Global
+*******************************/
+
+html,
+body {
+  font-size: 15px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
+  /*background: #FCFCFC url(../images/bg.jpg) repeat;*/
+  margin: 0px;
+  padding: 0px;
+  color: #555555;
+  min-width: 320px;
+}
+
+#contentWrapper{
+  top:75px;
+  display:block;
+  position:fixed;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+}
+
+#menuWrapper{
+  display:block;
+  width:100%;
+  /*position:fixed*/;
+
+}

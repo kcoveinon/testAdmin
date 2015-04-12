@@ -1,0 +1,58 @@
+
+#searchPage720x520 .sp720x520-box1
+{
+	width:720px;
+	height:520px;
+	background:#FFFFFF;
+	margin:40px auto;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#searchPage720x520 .sp720x520-box2
+{
+	display:inline-block;
+	width:330px;
+	height:82%;
+	padding-left:30px;
+	padding-top:20px;
+}
+
+#searchPage720x520 .sp720x520-box3
+{
+	padding-left:30px;
+	padding-top:20px;
+	position:absolute;
+	background-color:#DDDDDD;
+	top:390px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+#searchPage720x520 .sp720x520-button1
+{
+	width: 720px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:50px;
+	border-style:none;
+	font-weight:bold;
+}
+
+#searchPage720x520 .sp720x520-pickup
+{
+	margin-left:0px;
+	float:left;
+}
+
+#searchPage720x520 .sp720x520-return
+{
+	margin-right:0px;
+	float:right;
+}
+
+#searchPage720x520 .sp720x520-text1
+{
+	font-size:30px;
+}

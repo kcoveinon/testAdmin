@@ -1,0 +1,18 @@
+.font-picker-details
+	{
+		background-color:#ffffff; 
+		width: 220px; 
+		padding: 25px 20px;
+		z-index:1;
+		/*border-radius:10px;*/
+	}
+
+.font-picker-divider
+	{
+		height:8px;
+	}
+	
+.font-picker-commands
+	{
+		padding-top:15px;
+	}

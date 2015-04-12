@@ -1,0 +1,8 @@
+.registration.box {
+	margin: 0 auto !important;
+	width: 30%;
+}
+
+.registration.box .ui.dropdown .dropdown.icon {
+	margin-top: 0;
+}

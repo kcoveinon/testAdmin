@@ -1,0 +1,99 @@
+
+
+.background-image-selector-content{
+	background-color:#FFFFFF;
+	width:230px;
+	height:200px;
+	display:block;
+	z-index:1;
+}
+
+.background-image-selector-divider{
+	height:8px;
+	display:block;
+}
+
+.background-image-selector-image-display{
+	position:absolute;
+	display:block;
+	height:135px;
+	width:220px;
+	top:5px;
+	left:5px;
+	background-size:100% 100%;
+	/*
+	background-color:#DDDDDD;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	*/
+}
+
+.background-image-selector-image-list-wrapper{
+	height:50px;
+	width:190px;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	overflow:hidden;
+}
+
+.background-image-selector-image-list-wrapper:hover{
+	cursor:pointer;
+}
+
+.background-image-selector-upload-actions{
+	position:absolute;
+	top:18px;
+}
+
+.background-image-selector-upload-preview-background{
+	position:absolute;
+	top:53px;
+	height:81px;
+	width:173px;
+	background-color:#DDDDDD;
+	background-image: repeating-linear-gradient(135deg, transparent, transparent 5px, rgba(255,255,255,.5) 5px, rgba(255,255,255,.5) 10px);
+}
+
+.background-image-selector-upload-preview{
+	height:inherit;
+	width:inherit;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.background-image-selector-upload-preview-actions{
+	top:54px;
+	right:0px;
+	position:absolute;
+}
+
+.background-image-selector-image-list{
+	height:68px;
+	width:190px;
+	overflow-x:auto;
+	white-space: nowrap;
+}
+
+.background-image-selector-image-container{
+	display:inline-block;
+}
+
+.background-image-selector-image-container img{
+	display:inline-block;
+	height:50px;
+	width:auto;
+	margin-right:2px;
+}
+
+.active-image{
+	border:solid 2px orange;
+}
+
+.background-image-selector-actions{
+	position:absolute;
+	right:5px;
+	bottom:5px;
+}

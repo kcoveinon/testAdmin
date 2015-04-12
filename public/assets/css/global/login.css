@@ -1,0 +1,46 @@
+.forgot-password-button {
+	cursor: pointer;
+	color: #0000FF;
+}
+
+.forgot-password.modal > .header {
+	padding: 1rem 1.13rem !important;
+	font-size: 1.4em !important;
+}
+
+.forgot-password.modal .content .header {
+	font-size: .45em;
+	color: #777;
+	padding: 0em .3em 0em .3em; 
+	margin-bottom:.5em;
+	margin-top: .5em;
+	font-weight: 500;
+}
+
+.forgot-password.modal .content > .message {	
+	margin: 1em 1.2em 0em .3em;
+	padding: .5em 1em;
+	font-size: .45em;
+}
+
+.forgot-password.modal .content > .message .hide {
+	padding: 0;
+	font-size: 1em;
+	height: 1em;
+	cursor: pointer;
+	margin-top: 0em;
+	float:right;
+	font-style: normal;
+}
+
+.forgot-password.modal .content input {
+	margin-left: .7%; 
+	width: 200%;	
+	font-size: .55em !important;
+}
+
+
+.forgot-password.modal .content {
+	padding: 0 1.7% 2%;
+	font-size: 2em;
+}

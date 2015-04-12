@@ -1,0 +1,722 @@
+.ui.app.menu {
+	background-color: #0D4B77 !important;
+	padding-left: 3%;
+	padding-right: 5%;
+	margin-bottom: 0;
+	height: auto !important;
+	overflow-y: initial;	
+}
+
+/* .ui.app.menu .right.menu {
+	margin-top: 2%;
+} */
+
+.ui.app.menu > .item {
+	float: left;
+}
+
+.partner.header {
+	font-size: 2em;
+}
+
+.ui.app.menu .right.menu .item {
+	text-transform: uppercase;
+	padding-left: 1em;
+}
+
+
+.ui.app.menu .right.menu .dropdown.item > .default.text {
+	color: #FFFFFF;
+}
+
+.ui.app.menu .right.menu .dropdown.item {
+	color: #FFFFFF;
+	/* text-transform: none; */
+}
+
+.ui.app.menu .right.menu .button {
+	margin-left: 1em;
+}
+
+.ui.app.menu .currency.dropdown .cflag.icon {
+	margin-right: 0 !important;
+	vertical-align: initial !important;
+}
+
+.ui.search.grid {
+	background-color: #EEE;
+	padding-left: 3%;
+	padding-right: 5%;
+}
+
+.ui.search.grid > .column {
+	padding-right: 0;
+	margin-bottom: 0;
+	margin-top: .6em;
+}
+
+.ui.search.form {
+    width:100% !important;
+    padding-bottom: 0 !important;
+    font-size: 62.5%;
+}
+
+.ui.icon.header .icon {
+	margin: 0em auto 0em;
+}
+
+
+.ui.search.form .inline.fields .pickup.location.field .ui.icon.input > .icon {
+	height: 2.7em;
+}
+
+.ui.search.form .inline.fields .field .ui.icon.input > .icon {
+	padding-top: .9em;	
+}
+
+.ui.search.form .inline.fields .field .ui.input {
+	width: 100%;
+}
+
+.ui.search.form .inline.fields .field input {
+	height: 2.86em !important;
+	font-size: 1.45em !important;
+	width: 100% !important;
+	padding-right: 2em !important;
+}
+
+.ui.search.form .ui.checkbox {
+	font-size: 1.5em;
+	margin-top: .3em;
+}
+
+.ui.search.form .ui.checkbox label {	
+	padding-left: 1.6em;
+}
+
+.ui.search.form .inline.fields .field .selection.dropdown {
+	font-size: 1.3em !important;
+	padding: .95em 1em;		
+}
+
+.ui.search.form .inline.fields .field .selection.dropdown .dropdown.icon {
+	margin: 0 0em 0.2em 1.25em;	
+}
+
+.ui.search.form .inline.fields .pickup.location.field {
+	width: 23%;	
+}
+
+.ui.search.form .inline.fields .return.location.field {
+	width: 23%;	
+}
+
+.ui.search.form .ui.search.button {
+	width: 9.9%;
+}
+
+.ui.search.form .inline.fields .search.field {
+	width: 9.5%;
+}
+
+.ui.search.form .inline.fields .date.field {
+	width: 17%;
+}
+
+.ui.search.form .inline.fields .country.field {
+	width: 20%;
+}
+
+.ui.search.form .inline.fields .age.field {
+	width: 11%;
+}
+
+.ui.search.form .date.field .popup .header {
+	text-shadow: none !important;
+	color: #d35400 !important;
+	font-size: .9em !important;
+	text-transform: uppercase;
+}
+
+
+.ui.search.form .date.field .popup {
+	max-width: none;
+	width: 215%;	
+	background-color: #f7f7f7;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	-o-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.ui.search.form .date.field .popup .action.grid .column {
+	margin-top: 0;
+	margin-bottom: 0.2em;
+}
+
+
+.datepick {
+	margin-top: 3% !important;
+}
+
+.timepicker.wrapper {
+	margin-top: 10% !important;
+}
+
+.input.timepicker {
+	display: none;
+}
+
+.results.tabular.menu {
+	background-color: #EEE;
+	margin-top: 0;
+	border-bottom: 0;
+}
+
+.results.tabular.menu .active.item {
+	margin-bottom: 0px;
+}
+
+.results.tabular.menu .item {
+	padding-bottom: .5em;
+	padding-left: .5em;
+	padding-top: .5em;
+	margin-left: .3%;
+	border: 1px solid #DCDDDE;
+	background-color: #E2E2E2;
+}
+
+.results.tabular.menu .item:first-child {
+	margin-left: 1.4%;
+}
+
+.results.tabular.menu .active.item .secondary {
+	color: #999;
+}
+
+.results.tabular.menu .item .secondary {
+	margin-top: .3%;
+	margin-bottom: 0;
+	font-size: .7em;
+	color: #333;
+}
+
+.results.main {
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.results.main > .ui.grid {
+	margin-left: 0% !important;
+	margin-right: 0% !important;
+}
+
+.results.tabular.menu .active.item .primary {
+	color: #333333;
+}
+
+.results.tabular.menu .item .primary {
+	color: #428bca;
+}
+
+.results.tabular.menu .item:hover {
+	background-color: #E7E7E7;
+}
+
+.results.tabular.menu .active.item:hover {
+	background-color: #FFFFFF;
+}
+
+.results.tabular.menu .favorite.label {
+	padding: 0.2em 0.6em;
+}
+
+.ui.results.tabular.menu .favorite.corner {
+	border-color: #5C6166 !important;
+	color: #FFFFFF !important;
+	background-color: transparent !important;
+}
+
+.ui.results.tabular.menu .favorite.favorited.corner {
+	background-color: transparent !important;
+	border-color: #D95C5C !important;
+	color: #FFFFFF !important;	
+}
+
+.favorites.list .location {
+	margin-bottom: 0; 
+	margin-top: 0; 
+	color: #27AE60; 
+	font-weight: bold; 
+	font-size: .8em;
+}
+
+.favorites.list > div {
+	cursor: pointer;
+}
+
+.favorites.list .date {
+	margin-top: 0; 
+	font-size: .7em;
+}
+
+
+.results.grid .tab.column .grid > .column {
+	margin-top: 0 !important;
+}
+
+.results.grid .tab.column .grid > .column > .main.header {
+	font-size: 1em;
+}
+
+.results.grid .filters.column > .column {
+	border-bottom: 1px solid #DCDDDE;
+	margin-bottom: 0;
+	padding-bottom: .6em;
+	margin-top: .5em !important;
+}
+
+.results.grid .filters.column .depot.column .supplier.name {
+	vertical-align: super;
+}
+
+.results.grid .filters.column .depot.column .user-distance {
+	font-size: .9em;
+	font-weight: bold;
+}
+
+.results.grid .filters.column .depot.column .checkbox,
+.results.grid .filters.column .supplier.column .checkbox {
+	margin-bottom: .3em;
+}
+
+
+
+.results.grid .filters.column .column:first-child .header {
+	margin-top: 0 !important;
+}
+
+.results.grid .filters.column .header {
+	font-size: .8em;	
+	color: #0D4B77 !important;
+	margin-bottom: .5em;
+	margin-top: .5em !important;
+}
+
+.favorite.tab.grid .header {
+	font-size: .8em;
+	color: #0D4B77 !important;
+	margin-bottom: .5em;
+}
+
+.pickuplocation-autocomplete {
+	width: 150% !important;
+	max-width: none !important;
+}
+
+.results.grid  .row > .favorite.column {
+	padding-left: 1em;
+	padding-right: 0;
+}
+ .results.grid .filters.column .ui.button .icon {
+	margin-right: 0;
+	font-size: .9em;
+}
+
+.results.grid .filters.column .options.column > .grid > .column {
+	text-align: center;
+	margin-bottom: .5em;
+}
+
+.results.grid .filters.column .options.column .transmission.column {
+	padding-left: 0;
+}
+
+.results.grid .filters.column .options.column .transmission.column {
+	width: 7.8em;
+	padding-right: .3em;
+	padding-left: 0;
+}
+
+.results.grid .filters.column .options.column .active.button {
+	background-color: #5BBD72 !important;
+	color: #FFFFFF !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-o-box-shadow: none !important;
+}
+
+.results.grid .filters.column .ui.form .field {
+	margin-bottom: 0;
+}
+
+.results.grid .user.distance.grid .user.distance.column .loading.icon {
+	padding-top: .5em;
+	margin-right: 0;
+}
+
+.results.grid .user.distance.grid .user.distance.column {
+	padding-left: 0;
+}
+
+.results.grid .user.distance.grid .autocomplete {
+	font-size: 1.1em;
+}
+
+.results.grid .user.distance.grid .user.distance.column .toptext.selected {
+	color: #999 !important;
+	margin-top: .3em;
+}
+
+.results.grid .user.distance.grid .user.distance.column .toptext {
+	font-size: .788em;
+	margin-bottom: .5rem;
+	margin-top: 0rem;
+	color: #0D4B77 !important;
+	font-weight: bold;
+}
+
+.results.grid .user.distance.grid .user.distance.column .field {
+	width: 90%;
+}
+
+.results.grid .user.distance.grid .user.distance.column .field > div {
+	width: 100%;
+}
+
+.results.grid .user.distance.grid .user.distance.column .field input {
+	width: 100%;
+	padding-top: .8em !important;
+	padding-bottom: .8em !important;
+}
+
+.ui.modal.map .toptext.selected {
+	color: #999 !important;
+	margin-top: .3em;
+}
+
+.ui.modal.map .toptext {
+	font-size: .788em;
+	margin-bottom: .1em;
+	margin-top: 0rem;
+	color: #0D4B77 !important;
+	font-weight: bold;
+}
+
+.ui.modal.map .loading.icon {
+	padding-top: .5em;
+	margin-right: 0 !important;
+}
+
+.ui.modal.map .autocomplete {
+	font-size: 1.2em;
+}
+
+.modal.map .field {
+	width: 45%;
+}
+
+.modal.map .field > div {
+	width: 100% !important;
+}
+
+.modal.map .field input {
+	width: 100%;
+}
+
+.angular-google-map-container { 
+	height: 400px; 
+}
+
+.results.grid .user.distance.grid .view.column .map.button:hover {
+	background-color: #009A93;
+	color: #FFFFFF;	
+}
+
+
+/* .results.grid .user.distance.grid .view.column .dropdown.sort {
+	margin-right: 2%;
+} */
+
+.results.grid .user.distance.grid .view.column {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.results.grid .user.distance.grid .view.column .descending.checkbox {
+	margin-top: 2em;
+}
+
+.results.grid .user.distance.grid .view.column .descending.checkbox label {
+	padding-left: 1.5em;
+}
+
+
+.results.grid .user.distance.grid .view.column .map.button {
+	margin-top: 2em;
+	margin-left: .5em;
+	background-color: #00B5AD;
+	color: #FFFFFF;
+}
+
+.modal.map .header {
+	font-size: 2em;
+}
+
+.modal.map .content {
+	font-size: 1.75em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.results.grid .user.distance.grid .view.column .toptext,
+.modal.map .toptext {
+	font-size: .788em;
+	margin-bottom: .5rem;
+	margin-top: 0rem;
+	color: #0D4B77 !important;
+	font-weight: bold;	
+}
+
+.results.grid .clear.button {
+	font-size: .8em;
+	margin-left: .5em;
+	margin-bottom: .4em;	
+}
+
+
+
+
+.results.grid .user.distance.grid .view.column .sort.dropdown .dropdown.icon {
+	margin-top: 0;
+}
+
+.results.grid .user.distance.grid .view.column .sort.dropdown {
+	padding: .4em 1em; 
+}
+
+.results.grid .filter-and-vehicles {
+	width: 25% !important;
+}
+
+.results.grid .filters.column .options.column .distance.column {
+	width: 18%;
+}
+
+.results.grid .filters.column .options.column .subtext {
+	margin-top: 0.3em;
+	margin-bottom: 0;
+	font-size: .66em;
+	text-align: center;
+}
+
+.enabled.aircon {
+	color: #3498db;
+}
+
+.enabled.airport {
+	color: #3498db;
+}
+
+.disabled.aircon {
+	color: #333;
+}
+
+.disabled.airport {
+	color: #333;
+}
+
+.results.grid .vehicles.grid > .vehicle.column {
+	border: 1px solid #DCDDDE;
+	margin-bottom: .8em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row {
+	margin-bottom: 0;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.image.column img.car {
+	width: 100%;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.image.column .grid .column {
+	margin-bottom: 0;	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.image.column .grid .supplier.column {
+	text-align: right;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.image.column .grid .supplier.column span {
+	font-size: .7em;
+	vertical-align: super;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #888;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.image.column .grid .supplier.column img.supplier.logo {
+	width: 35%;
+	text-align: center
+}	
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.column {
+	padding-top: .5em;
+	/*padding-bottom: .5em;	*/
+	margin-bottom: 0;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .name {
+	color: #0D4B77 !important;
+	/*color: #d35400 !important;*/
+	margin-bottom: 0;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .address .map:hover {
+	color: #2ECC71;	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .address .map {
+	color: #27AE60;
+	cursor: pointer;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .address {
+	/* font-size: .7em; */
+	font-size: .73em;
+	font-weight: bold; 
+	/* color: #333; */
+	/* color: rgba(0, 0, 0, 0.5); */
+	color: #777;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .grid > .column span {
+	font-size: .7em;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .category.grid > .column,
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .class.grid > .column {
+	/* color: rgba(0, 0, 0, 0.5); */
+	color: #777;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .category.grid > .column:first-child,
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .class.grid > .column:first-child {
+	/* text-align: right; */
+	padding-right: 0;	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .grid .column {
+	margin-bottom: .1em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid {
+	margin-top: 5.5%;
+	color: #333;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .label.column {
+	/* margin-bottom: .2em; */
+	margin-bottom: 0em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column {
+	margin-top: -.16em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.aircon {
+	margin-right: .3em;	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.seater {
+	position: relative; 
+	margin-right: .3em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.seater .count {
+	position: absolute;
+	left: 1.3em;
+	font-size: .6em;
+	top: .1em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.distance {
+	position: relative; 
+	margin-right: .1em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.door {
+	position: relative; 
+	margin-right: .5em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.door img {
+	width: .9em; 
+	vertical-align: middle;
+	margin-top: -.3em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.door .count {
+	position: absolute;
+	left: 1.8em;
+	font-size: .6em;
+	top: .1em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.storage {
+	position: relative; 
+	margin-right: .4em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.storage .count {
+	position: absolute;
+	left: 1.7em;
+	font-size: .6em;
+	top: .1em;		
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span.user-distance .label {
+	padding: 0.15em 0.6em;
+	font-size: .81em;
+	margin-left: .2em;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .additional.grid .additional.column span {
+	font-size: .93em;	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column,
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .price.detail.column {
+	border-left: 1px solid #DCDDDE;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .price.detail.column .ui.price.header {	
+	/*font-size: 1.05em;*/
+	color: #0D4B77;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .price.detail.column .ui.price.header .sub.header {
+	font-size: .6em;
+	font-weight: bold;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .price.detail.column .book.button {
+	margin-top: 4.3em;
+	font-size: .8em;
+}
+
+
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .class.grid {
+	margin-top: -1.3%;
+}
+
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .detail.column .name {
+	text-transform: uppercase;
+	font-size: 1.03em;
+	/* font-size: 1em; */
+}

@@ -1,0 +1,34 @@
+.filter-and-vehicles .irs-from, .filter-and-vehicles .irs-to, .filter-and-vehicles .irs-single{
+	background-color:#5BBD72!important;
+}
+
+.filter-and-vehicles .ui.mini.buttons .button, .filter-and-vehicles .ui.mini.button{
+	background-color:#FFFFFF!important;
+}
+
+.filter-and-vehicles .ui.mini.buttons .button.active, .filter-and-vehicles .ui.mini.button.active{
+	background-color:#5BBD72!important;
+}
+
+
+.equal.height.three.column.row{
+	background-color:#FFFFFF!important;
+	
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .information.detail.column .name{
+	color:#0D4B77!important;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.results.grid .vehicles.grid > .vehicle.column > .details.column > .row > .price.detail.column .ui.price.header{
+	color:#0D4B77!important;
+	font-size:21px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.results.grid .ui.button.primary{
+	background-color:#27AE60;
+}

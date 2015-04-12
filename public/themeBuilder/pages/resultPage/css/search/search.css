@@ -1,0 +1,181 @@
+body {
+	background-image: url('../../img/background/background3.jpg');
+	/*background-color: #ecf0f1;*/
+}
+
+.ui.app.menu {
+	background-color: #0D4B77 !important;
+	padding-left: 3%;
+	padding-right: 5%;
+}
+
+.ui.app.menu > .item {
+	float: left;
+}
+
+.ui.app.menu .right.menu {
+	margin-top: 2%;	
+}
+
+.ui.app.menu .right.menu .item {
+	text-transform: uppercase;
+}
+
+/*.pickuplocation-autocomplete {
+	width: 150% !important;
+	max-width: none !important;
+}*/
+
+.search.form.wrapper {
+	/*position: absolute;
+    width: 90%;
+    top: 40%;
+    left: 4%;*/
+
+    margin-top: 10%;
+    margin-left: 4%;
+    width: 91%;
+}
+
+.search.form.wrapper .ui.header {
+	font-size: 3.5em !important;
+	margin-bottom: .1em !important;
+	text-shadow: 2px 2px #333 !important;
+	color: #FFFFFF !important;
+}
+
+.search.form.wrapper .ui.search.form {
+    background: rgba(34, 34, 34 ,.6) !important;
+    width:100% !important;
+    padding-bottom: 0 !important;
+}
+
+
+.search.form.wrapper .ui.search.form .ui.checkbox {
+	font-size: 1.7em;
+	margin-top: .5em;
+}
+
+.search.form.wrapper .ui.search.form .ui.checkbox label {
+	color: #FFFFFF;
+	padding-left: 1.6em;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .field {
+	display: none;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .field .ui.input {
+	width: 100%;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .field .ui.icon.input > .icon {
+	padding-top: .9em;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .field .selection.dropdown {
+	font-size: 1.3em !important;
+	padding: .95em 1em;	
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .field .selection.dropdown .dropdown.icon {
+	margin-top: 0;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .field input {
+	height: 2.86em !important;
+	font-size: 1.45em !important;
+	width: 100% !important;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .pickup.location.field {
+	width: 23%;
+	display:block;
+	-webkit-transition: width .5s; 
+    transition: width .5s;
+    -moz-transition: width .5s;
+    -o-transition: width .5s;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .pickup.location.full.field {
+	width: 100%;
+	display:block;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .return.location.field {
+	width: 23%;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .date.field {
+	width: 17%;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .country.field {
+	width: 20%;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .age.field {
+	width: 11%;
+}
+
+.search.form.wrapper .ui.search.form .inline.fields .search.button {
+	display: none;
+}
+
+.search.form.wrapper .ui.search.form .date.field .popup .header {
+	text-shadow: none !important;
+	color: #d35400 !important;
+	font-size: .9em !important;
+	text-transform: uppercase;
+}
+
+
+.search.form.wrapper .ui.search.form .date.field .popup {
+	max-width: none;
+	width: 215%;	
+	background-color: #f7f7f7;
+}
+
+.search.form.wrapper .ui.search.form .date.field .popup .action.grid .column {
+	margin-top: 0;
+	margin-bottom: 0.2em;
+}
+
+
+.datepick {
+	margin-top: 3% !important;
+}
+
+.timepicker.wrapper {
+	margin-top: 10% !important;
+}
+
+.input.timepicker {
+	display: none;
+}
+
+.search.form .pickup.location .autocomplete {
+	 width: 150% !important; 
+	 max-width: none !important;
+}
+
+.search.form .pickup.location.full .autocomplete {
+	 width: 50% !important; 
+	 max-width: 100% !important;
+}
+
+/* Desktops and laptops ----------- 
+@media only screen and (min-width : 1224px) {
+/* Styles */
+	.search.form.wrapper .ui.search.form .inline.fields .search.button {
+		width: 9%;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+	.search.form.wrapper .ui.search.form .inline.fields .search.button {
+		width: 9.5%;
+	}
+}

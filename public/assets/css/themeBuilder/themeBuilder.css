@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/03/2014, 9:09:10 AM
+    Author     : Admin
+*/
+
+.settingsDiv{
+	position:absolute;
+	padding-top:30px;
+	right:30px;
+}
+
+.settingsDiv .basic{
+	background-color:#000000!important;
+}
+
+.mainDiv{
+    width:100%;
+	height:100%;
+}
+.generatorDivWrapper{
+	position:absolute;
+    float:left;
+    width:320px;
+	z-index:1;
+	display:block;
+	overflow:hidden;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+
+.generatorDiv{
+	position:absolute;
+    left:0px;
+	top:0px;
+	right:-18px;
+	bottom:-18px;
+	padding-top:40px;
+	padding-left:25px;
+	padding-right:20px;
+	background-color:rgba(10,10,10,0.9);
+	display:block;
+	overflow:scroll;
+}
+
+.spacingDiv{
+	height:500px;
+	width:100%;
+	display:block;
+}
+
+.fadingTop {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:30px;
+	background-image: -webkit-linear-gradient(top, rgb(10,10,10), transparent);  
+	background-image:    -moz-linear-gradient(top, rgb(10,10,10), transparent);  
+	background-image:      -o-linear-gradient(top, rgb(10,10,10), transparent);  
+	background-image:         linear-gradient(top, rgb(10,10,10), transparent); 
+}
+
+.fadingBottom {
+	position:absolute;
+	bottom:30px;
+	width:100%;
+	height:30px;
+	background-image: -webkit-linear-gradient(bottom, rgb(10,10,10), transparent);  
+	background-image:    -moz-linear-gradient(bottom, rgb(10,10,10), transparent);  
+	background-image:      -o-linear-gradient(bottom, rgb(10,10,10), transparent);  
+	background-image:         linear-gradient(bottom, rgb(10,10,10), transparent); 
+}
+
+.saveTheme{
+	position:absolute;
+	color:#CCCCCC;
+	background-color:rgb(10,10,10);
+	bottom:0px;
+	width:100%;
+	height:30px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.saveTheme:hover{
+	cursor:pointer;
+}
+
+.ui.accordion .title{
+	font-size: 15px;
+	font-weight: bold;
+	color:#888888;
+}
+
+.ui.accordion .content{
+	font-size: 14px;
+	font-weight: bold;
+	color:#DDDDDD;
+	padding-left:20px!important;
+}
+
+.ui.accordion .content .basic{
+	background-color:#FFFFFF!important;
+}
+
+.formDiv{
+	height:100%;
+	display:block;
+	overflow:auto;
+	
+}
+/*
+.formDiv *{
+	pointer-events: none; 
+	cursor: default;
+}
+*/
+
+.ui.launch.right.attached.button{
+	display:block; 
+	position:absolute;
+	left:320px;
+	width:230px;
+	opacity:0.9;
+}
+.generatorDivSwitch{
+	top:60px; 
+	background-color:rgb(10,10,10)!important;
+}
+
+.pageSelect{
+	top:170px;
+	background-color:#333333!important;
+}
+
+.resizeWindow{
+	top:215px;
+	background-color:#333333!important;
+}
+
+.revertChanges{
+	top:300px;
+	background-color:#333333!important;
+}
+
+.restoreDefault{
+	top:345px;
+	background-color:#333333!important;
+}
+
+.googleAnalytics{
+	top:430px;
+	background-color:#333333!important;
+}
+
+.generatorDiv .ui.fluid.accordion .title{
+	color:#555555!important;
+}
+
+.generatorDiv .ui.fluid.accordion .title.active{
+	color:#BBBBBB!important;
+}
+
+.generatorDiv .ui.fluid.accordion .title:hover{
+	color:#DDDDDD!important;
+}
+
+#iframeStylePreview{
+	/*pointer-events: none;*/
+	cursor: default;
+	
+}
+
+.dspN{
+    display: none;
+}
+
+.dspB{
+    display: block;
+}
+
+.bPadding10{
+   margin-bottom: 10px; 
+   font-size: 15px;
+   font-weight: bold;
+  
+}
+
+.fontSize20{
+    font-size: 20px;
+}
