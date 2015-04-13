@@ -2,6 +2,14 @@
     var depotController = angular.module('depot-controller', []);
 
     depotController.controller("DepotAdminController", ['$scope', function(scope) {
+
+            scope.modals = {
+                depotExport: {
+                    show: false,
+                    isTransacting: false
+                }
+            };
+
             scope.column_variable = [
                 {
                     header: 'Depot ID',
