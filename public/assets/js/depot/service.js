@@ -19,6 +19,21 @@
 
             return dfd.promise;
         }
+
+        this.updateDepots = function(code) {
+            var dfd = q.defer();
+            http(
+                {
+                    "url"    : 'http://vroom.hertz.local/'+ code.toUpperCase() +'/depots/update-records?callback=JSON_CALLBACK',
+                    "method" : "jsonp",
+                }
+            ).success(function(response) {
+                dfd.resolve(response);
+            }).error(function(response) {
+
+            });
+            return dfd.promise;
+        }
     }]);
 
 })();

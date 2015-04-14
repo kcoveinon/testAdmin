@@ -4,11 +4,20 @@
     depotController.controller("DepotAdminController", ['$scope', 'SupplierService', function(scope, supplierService) {
 
             scope.test = function() {
+                for (i in scope.supplierCollection) {
+                    var supplier = scope.supplierCollection[i];
 
-                angular.forEach(scope.supplierCollection, function (value, index) {
-                    var index = scope.supplierCollection.indexOf(value);
-                    scope.supplierCollection.splice(scope.supplierCollection.indexOf(value), 1);
-                });
+                    if (supplier.isActive == true && supplier.isProcessing != true) {
+                        var params = supplier.supplierCode;
+
+                        supplier.isProcessing = true;
+
+                        supplierService.updateDepots(params).then(function(response) {
+                            supplier.isProcessing = false;
+                            console.log(response);
+                        });
+                    }
+                }
             }
 
             scope.modals = {

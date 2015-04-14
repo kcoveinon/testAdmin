@@ -28,6 +28,8 @@
                                 onHide: function() {
                                     scope.modals.depotExport.show = false;
                                     scope.$digest();
+
+                                    return false;
                                 },
                             }).modal('show');
                         }
@@ -42,7 +44,8 @@
                         $scope.supplierCollection.push({supplierName  : $scope.supplier[index].supplierName, 
                                                         supplierCode  : $scope.supplier[index].supplierCode.toLowerCase(),
                                                         supplierImage : 'http://www.vroomvroomvroom.com.au/book/images/icons/icon-' + $scope.supplier[index].supplierCode.toLowerCase() + '.gif',
-                                                        isActive      : true
+                                                        isActive      : false,
+                                                        isProcessing  : false
                                                     });
                     }
                 });
