@@ -142,41 +142,6 @@
 		};
 	}]);
 
-	resultsDirective.directive('sameReturnLocationAction', function() {
-		return {
-			restrict: 'A',
-			link: function(scope, elem, attrs) {
-				elem.checkbox({
-					onEnable: function() {
-						scope.returnLocation.id = scope.pickupLocation.id;
-						scope.returnLocation.value = scope.pickupLocation.value;
-						scope.isSameLocation.value = true;
-
-						if(!scope.$$phase) {
-							scope.$apply();	
-						}
-						/*scope.$apply();*/
-					},
-					onDisable: function() {
-						scope.isSameLocation.value = false;
-						/*scope.$apply();*/
-
-						if(!scope.$$phase) {
-							scope.$apply();	
-						}
-					}
-				});
-
-				scope.$watch('isSameLocation.value', function(newVal, oldVal) {
-					if(newVal) {
-						elem.checkbox('enable');
-					} else {
-						elem.checkbox('disable');	
-					}				
-				});
-			}
-		};
-	});
 
 	resultsDirective.directive('dateFieldAction', function() {
 		return {

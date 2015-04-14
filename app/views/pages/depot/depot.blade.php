@@ -15,20 +15,29 @@
         <i class="close icon"></i>
         <div class="header">
             Update Depot Table
+
         </div>
         <div class="content">
             <div class="description">
-                <div class="ui header">Test</div>
-                <p>Test <a href="https://www.gravatar.com" target="_blank">gravatar</a> Test</p>
-                <p>Is it okay to use this photo?</p>
+                <div class="ui header">Choose the supplier's depots to be updated:</div>
+                <div class="ui divided list">
+                    <div class="item" ng-repeat="supplier in supplierCollection">
+                        <div class=" right floated compact ui">
+                            <input type="checkbox" ng-model="supplier.isActive"/>
+                        </div>
+                        <img class="ui avatar image" src="[[supplier.supplierImage]]" style="width:auto !important">
+                        <div class="content">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="actions">
             <div class="ui black button">
-                Nope
+                Close
             </div>
-            <div class="ui positive right labeled icon button">
-                Yep, that's me
+            <div class="ui positive right labeled icon button" ng-click="test()">
+                Export
                 <i class="checkmark icon"></i>
             </div>
         </div>

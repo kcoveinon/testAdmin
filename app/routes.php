@@ -53,6 +53,8 @@ Route::controller('company-grid', 'GridCompanyController');
 Route::controller('site-grid', 'GridSiteController');
 Route::controller('user-grid', 'GridUserController');
 
+Route::controller('supplier', 'SupplierController');
+
 //Added by Joef: Route for theme builder
 Route::controller('/theme-builder', 'ThemeBuilderController');
 Route::controller('/vroom-widget', 'VroomWidgetController');

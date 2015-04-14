@@ -1,7 +1,15 @@
 (function() {
     var depotController = angular.module('depot-controller', []);
 
-    depotController.controller("DepotAdminController", ['$scope', function(scope) {
+    depotController.controller("DepotAdminController", ['$scope', 'SupplierService', function(scope, supplierService) {
+
+            scope.test = function() {
+
+                angular.forEach(scope.supplierCollection, function (value, index) {
+                    var index = scope.supplierCollection.indexOf(value);
+                    scope.supplierCollection.splice(scope.supplierCollection.indexOf(value), 1);
+                });
+            }
 
             scope.modals = {
                 depotExport: {

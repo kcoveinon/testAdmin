@@ -14,7 +14,7 @@
         };
     });
 
-    depotDirective.directive('depotExportModalAction', function() {
+    depotDirective.directive('depotExportModalAction', ['SupplierService', function(supplierService) {
         return {
             restrict: 'A',
             link: function(scope, elem, attrs) {
@@ -31,10 +31,23 @@
                                 },
                             }).modal('show');
                         }
-
                     });
+            },
+            controller: function($scope) {
+
+                $scope.supplierCollection = [];
+                supplierService.getSuppliers().then(function(data) {
+                    $scope.supplier = data.response;
+                    for (index in $scope.supplier) {
+                        $scope.supplierCollection.push({supplierName  : $scope.supplier[index].supplierName, 
+                                                        supplierCode  : $scope.supplier[index].supplierCode.toLowerCase(),
+                                                        supplierImage : 'http://www.vroomvroomvroom.com.au/book/images/icons/icon-' + $scope.supplier[index].supplierCode.toLowerCase() + '.gif',
+                                                        isActive      : true
+                                                    });
+                    }
+                });
             }
         };
-    });
+    }]);
 
 })();
