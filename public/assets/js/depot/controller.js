@@ -3,20 +3,20 @@
 
     depotController.controller("DepotAdminController", ['$scope', 'SupplierService', function(scope, supplierService) {
 
-            scope.test = function() {
+            scope.doUpdateDepots = function() {
                 for (i in scope.supplierCollection) {
-                    var supplier = scope.supplierCollection[i];
+                    var code = scope.supplierCollection;
+                    if (scope.supplierCollection[i].isActive === true && scope.supplierCollection[i].isProcessing !== true) {
+                        var params = scope.supplierCollection[i].supplierCode;
+                        scope.supplierCollection[i].isProcessing = true;
 
-                    if (supplier.isActive == true && supplier.isProcessing != true) {
-                        var params = supplier.supplierCode;
-
-                        supplier.isProcessing = true;
-
-                        supplierService.updateDepots(params).then(function(response) {
-                            supplier.isProcessing = false;
-                            console.log(response);
+                        supplierService.updateDepots(params).then(function(response, i) {
+                            var supplierCode = response.supplierCode;
+                            scope.supplierCollection[supplierCode].isProcessing = false;
                         });
                     }
+
+
                 }
             }
 

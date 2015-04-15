@@ -21,11 +21,12 @@
             <div class="description">
                 <div class="ui header">Choose the supplier's depots to be updated:</div>
                 <div class="ui divided list">
-                    <div class="item" ng-repeat="supplier in supplierCollection">
+                    <div class="item" ng-repeat="supplierObject in supplierCollection track by $index">
                         <div class=" right floated compact ui">
-                            <input type="checkbox" ng-model="supplier.isActive"/>
+                            <input type="checkbox" ng-model="supplierObject.isActive" ng-show="!supplierObject.isProcessing" />
+                            <div ng-show="supplierObject.isActive && supplierObject.isProcessing" class="ui active inline loader"></div>
                         </div>
-                        <img class="ui avatar image" src="[[supplier.supplierImage]]" style="width:auto !important">
+                        <img class="ui avatar image" src="[[supplierObject.supplierImage]]" style="width:auto !important">
                         <div class="content">
                         </div>
                     </div>
@@ -36,7 +37,7 @@
             <div class="ui black button">
                 Close
             </div>
-            <div class="ui positive right labeled icon button" ng-click="test()">
+            <div class="ui positive right labeled icon button" ng-click="doUpdateDepots()">
                 Export
                 <i class="checkmark icon"></i>
             </div>

@@ -31,22 +31,36 @@
 
                                     return false;
                                 },
+                                onApprove: function() {
+
+                                    return false;
+                                }
                             }).modal('show');
                         }
                     });
             },
             controller: function($scope) {
-
-                $scope.supplierCollection = [];
+                $scope.supplierCollection = {
+                    "EC" : {},
+                    "HZ" : {},
+                    "TH" : {},
+                    "RS" : {},
+                    "BG" : {},
+                    "AV" : {},
+                };
                 supplierService.getSuppliers().then(function(data) {
                     $scope.supplier = data.response;
-                    for (index in $scope.supplier) {
-                        $scope.supplierCollection.push({supplierName  : $scope.supplier[index].supplierName, 
-                                                        supplierCode  : $scope.supplier[index].supplierCode.toLowerCase(),
-                                                        supplierImage : 'http://www.vroomvroomvroom.com.au/book/images/icons/icon-' + $scope.supplier[index].supplierCode.toLowerCase() + '.gif',
-                                                        isActive      : false,
-                                                        isProcessing  : false
-                                                    });
+                    for(index in $scope.supplier) {
+                        supplierInitial = $scope.supplier[index].supplierCode.toLowerCase();
+                        if(typeof $scope.supplierCollection[supplierInitial.toUpperCase()] !== "undefined") {
+                            $scope.supplierCollection[supplierInitial.toUpperCase()] = {
+                                supplierName  : $scope.supplier[index].supplierName, 
+                                supplierCode  : $scope.supplier[index].supplierCode.toLowerCase(),
+                                supplierImage : 'http://www.vroomvroomvroom.com.au/book/images/icons/icon-' + $scope.supplier[index].supplierCode.toLowerCase() + '.gif',
+                                isActive      : false,
+                                isProcessing  : false
+                            }
+                        }
                     }
                 });
             }
